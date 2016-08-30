@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+	<TemplateData>
+		<Name>Simplify.Web Initial Windows-Service Web Application</Name>
+		<Description>A project template for creating Simplify.Web windows-service-hosted web application using HttpListener as a web-server.</Description>
+		<ProjectType>CSharp</ProjectType>
+		<ProjectSubType>
+		</ProjectSubType>
+		<SortOrder>1000</SortOrder>
+		<CreateNewFolder>true</CreateNewFolder>
+		<DefaultName>WebApplication</DefaultName>
+		<ProvideDefaultName>true</ProvideDefaultName>
+		<LocationField>Enabled</LocationField>
+		<EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+		<Icon>Icon.ico</Icon>
+	</TemplateData>
+	<TemplateContent>
+		<Project TargetFileName="Simplify.Web.Templates.WindowsService.csproj" File="Simplify.Web.Templates.WindowsService.csproj" ReplaceParameters="true">
+			<Folder Name="App_Data" TargetFolderName="App_Data">
+				<ProjectItem ReplaceParameters="true" TargetFileName="StringTable.en.xml">StringTable.en.xml</ProjectItem>
+			</Folder>
+			<Folder Name="Controllers" TargetFolderName="Controllers">
+				<ProjectItem ReplaceParameters="true" TargetFileName="DefaultController.cs">DefaultController.cs</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+			<Folder Name="Properties" TargetFolderName="Properties">
+				<ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Startup.cs">Startup.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+			<Folder Name="Templates" TargetFolderName="Templates">
+				<ProjectItem ReplaceParameters="false" TargetFileName="Master.tpl">Master.tpl</ProjectItem>
+			</Folder>
+			<ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="WebApplicationStartup.cs">WebApplicationStartup.cs</ProjectItem>
+			<ProjectItem ReplaceParameters="true" TargetFileName="ServiceInstaller.cs">ServiceInstaller.cs</ProjectItem>
+		</Project>
+	</TemplateContent>
+</VSTemplate>

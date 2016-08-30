@@ -1,0 +1,14 @@
+Simplify.Web web-framework project templates.
+
+Incudes:
+
+    Project template for creating Simplify.Web web application using Katana (ASP.NET/IIS) hosting;
+    Project template for creating Simplify.Web self-hosted web application using HttpListener hosting;
+    Project template for creating Simplify.Web self-hosted web application using NOWIN web-server;
+    Project template for creating Simplify.Web windows-service-hosted web application using HttpListener as a web-server.
+
+Templates sources: https://github.com/i4004/Simplify.Web.Templates
+
+Documentation: https://github.com/i4004/Simplify.Web/wiki
+
+Another Simplify.Web usage examples: https://github.com/i4004/Simplify.Web/tree/master/src/Examples
