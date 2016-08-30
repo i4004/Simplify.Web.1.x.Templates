@@ -1,6 +1,6 @@
 ﻿using Simplify.WindowsServices;
 
-namespace safeprojectname
+namespace $safeprojectname$
 {
 	internal class Program
 	{
