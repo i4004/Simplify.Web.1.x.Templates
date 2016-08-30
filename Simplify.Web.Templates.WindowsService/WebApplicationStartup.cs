@@ -6,7 +6,7 @@ namespace $safeprojectname$
 	{
 		public void Run()
 		{
-			WebApp.Start<Startup>("http://+:8080");
+			WebApp.Start<Startup>("http://localhost:8080");
 		}
 	}
 }
