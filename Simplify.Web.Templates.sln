@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.SelfHosted", "Simplify.Web.Templates.SelfHosted\Simplify.Web.Templates.SelfHosted.csproj", "{F2151AB2-0841-42D0-8E6C-3272105E9358}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.Package", "Simplify.Web.Templates.Package\Simplify.Web.Templates.Package.csproj", "{8408AB2E-1678-4E1E-B5F6-7CECE2CE8CC1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.Katana", "Simplify.Web.Templates.Katana\Simplify.Web.Templates.Katana.csproj", "{09D2534F-81D1-4584-B8CD-FA04FC027635}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.WindowsService", "Simplify.Web.Templates.WindowsService\Simplify.Web.Templates.WindowsService.csproj", "{D342FB8D-669E-4F71-BB4C-221A4B66DFED}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.Nowin", "Simplify.Web.Templates.Nowin\Simplify.Web.Templates.Nowin.csproj", "{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.Package", "Simplify.Web.Templates.Package\Simplify.Web.Templates.Package.csproj", "{FB175723-8AA4-4883-921F-49A2F4F62CB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.SelfHosted", "Simplify.Web.Templates.SelfHosted\Simplify.Web.Templates.SelfHosted.csproj", "{F2151AB2-0841-42D0-8E6C-3272105E9358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplify.Web.Templates.WindowsService", "Simplify.Web.Templates.WindowsService\Simplify.Web.Templates.WindowsService.csproj", "{D342FB8D-669E-4F71-BB4C-221A4B66DFED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,28 +19,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8408AB2E-1678-4E1E-B5F6-7CECE2CE8CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8408AB2E-1678-4E1E-B5F6-7CECE2CE8CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8408AB2E-1678-4E1E-B5F6-7CECE2CE8CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8408AB2E-1678-4E1E-B5F6-7CECE2CE8CC1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{09D2534F-81D1-4584-B8CD-FA04FC027635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{09D2534F-81D1-4584-B8CD-FA04FC027635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09D2534F-81D1-4584-B8CD-FA04FC027635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09D2534F-81D1-4584-B8CD-FA04FC027635}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E4FA79-169E-4E12-A69A-B11C2ACFD4F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FB175723-8AA4-4883-921F-49A2F4F62CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB175723-8AA4-4883-921F-49A2F4F62CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB175723-8AA4-4883-921F-49A2F4F62CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB175723-8AA4-4883-921F-49A2F4F62CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2151AB2-0841-42D0-8E6C-3272105E9358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D342FB8D-669E-4F71-BB4C-221A4B66DFED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C868243A-17AA-4955-A3DA-BB276328E0FF}
 	EndGlobalSection
 EndGlobal
